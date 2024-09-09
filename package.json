@@ -12,19 +12,22 @@
     "@expo/metro-runtime": "~3.2.3",
     "@unitools/image": "^0.0.5",
     "@unitools/image-expo": "^0.0.5",
+    "@unitools/link": "^0.0.4",
+    "@unitools/link-expo": "^0.0.5",
     "expo": "~51.0.28",
     "expo-image": "^1.12.15",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.74.5",
-    "react-native-web": "~0.19.10"
+    "react-native-web": "~0.19.10",
+    "expo-router": "~3.5.23"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.2.45",
     "babel-plugin-module-resolver": "^5.0.2",
-    "typescript": "^5.1.3"
+    "typescript": "~5.3.3"
   },
   "private": true
 }

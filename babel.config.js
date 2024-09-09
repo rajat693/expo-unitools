@@ -10,6 +10,7 @@ module.exports = function (api) {
         {
           alias: {
             "@unitools/image": "@unitools/image-expo",
+            "@unitools/link": "@unitools/link-expo",
           },
         },
       ],

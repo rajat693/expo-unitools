@@ -1,15 +1,13 @@
-import Image from "@unitools/image";
-import { View } from "react-native";
+import React from "react";
+import Link from "@unitools/link";
+import { SafeAreaView, Text } from "react-native";
 
 export default function Home() {
   return (
-    <View>
-      <Image
-        source={require("@/assets/icon.png")}
-        alt="Logo"
-        width={200}
-        height={200}
-      />
-    </View>
+    <SafeAreaView>
+      <Link href="https://gluestack.io/">
+        <Text>gluestack</Text>
+      </Link>
+    </SafeAreaView>
   );
 }
